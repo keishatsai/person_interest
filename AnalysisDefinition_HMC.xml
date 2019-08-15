@@ -185,132 +185,6 @@
       <Name>NOSTRIL_OUTER_LEFT</Name>
       <Position type="double">0.44 0.6</Position>
     </Landmark>
-	
-	<Landmark>
-	 <Name>CARUNCLE_L_1</Name>
-     <Position type="double">0.46 0.48</Position>
-	</Landmark>	
-	<Landmark>
-	 <Name>CARUNCLE_L_2</Name>
-     <Position type="double">0.47 0.45</Position>
-	</Landmark>	
-	<Landmark>
-	 <Name>CARUNCLE_L_3</Name>
-     <Position type="double">0.49 0.48</Position>
-	</Landmark>	
-	<Landmark>
-	 <Name>CARUNCLE_L_4</Name>
-     <Position type="double">0.47 0.49</Position>
-	</Landmark>	
-	<Landmark>
-	 <Name>CARUNCLE_L_5</Name>
-     <Position type="double">0.50 0.43</Position>
-	</Landmark>	
-	<Landmark>
-	 <Name>CARUNCLE_L_6</Name>
-     <Position type="double">0.50 0.45</Position>
-	</Landmark>	
-	<Landmark>
-	 <Name>CARUNCLE_L_7</Name>
-     <Position type="double">0.50 0.47</Position>
-	</Landmark>	
-	
-	<Landmark>
-	 <Name>CARUNCLE_R_1</Name>
-     <Position type="double">0.26 0.48</Position>
-	</Landmark>		
-	<Landmark>
-	 <Name>CARUNCLE_R_2</Name>
-     <Position type="double">0.25 0.45</Position>
-	</Landmark>		
-	<Landmark>
-	 <Name>CARUNCLE_R_3</Name>
-     <Position type="double">0.23 0.48</Position>
-	</Landmark>		
-	<Landmark>
-	 <Name>CARUNCLE_R_4</Name>
-     <Position type="double">0.25 0.50</Position>
-	</Landmark>		
-	<Landmark>
-	 <Name>CARUNCLE_R_5</Name>
-     <Position type="double">0.20 0.43</Position>
-	</Landmark>		
-	<Landmark>
-	 <Name>CARUNCLE_R_6</Name>
-     <Position type="double">0.20 0.45</Position>
-	</Landmark>		
-	<Landmark>
-	 <Name>CARUNCLE_R_7</Name>
-     <Position type="double">0.20 0.47</Position>
-	</Landmark>	
-    
-	 
-	<Landmarks>
-      <Name>IRIS_R_UPPER_LEFT</Name>
-      <Position type="double">0.18 0.45</Position>
-    </Landmarks>	
-	<Landmarks>
-      <Name>IRIS_R_TOP</Name>
-      <Position type="double">0.20 0.44</Position>
-    </Landmarks>	
-	<Landmarks>
-      <Name>IRIS_R_UPPER_RIGHT</Name>
-      <Position type="double">0.22 0.45</Position>
-    </Landmarks>	
-	<Landmarks>
-      <Name>IRIS_R_CENTRE_RIGHT</Name>
-      <Position type="double">0.24 0.47</Position>
-    </Landmarks>	
-	<Landmarks>
-      <Name>IRIS_R_BOTTOM_RIGHT</Name>
-      <Position type="double">0.22 0.49</Position>
-    </Landmarks>
-	<Landmarks>
-      <Name>IRIS_R_BOTTOM</Name>
-      <Position type="double">0.20 0.50</Position>
-    </Landmarks>	
-	<Landmarks>
-      <Name>IRIS_R_BOTTOM_LEFT</Name>
-      <Position type="double">0.18 0.49</Position>
-    </Landmarks>
-
-	<Landmarks>
-      <Name>IRIS_L_CENTRE_LEFT</Name>
-      <Position type="double">0.51 0.47</Position>
-    </Landmarks>	
-	<Landmarks>
-      <Name>IRIS_L_UPPER_LEFT</Name>
-      <Position type="double">0.53 0.46</Position>
-    </Landmarks>	
-	<Landmarks>
-      <Name>IRIS_L_TOP</Name>
-      <Position type="double">0.54 0.45</Position>
-    </Landmarks>
-	<Landmarks>
-      <Name>IRIS_L_UPPER_RIGHT</Name>
-      <Position type="double">0.55 0.44</Position>
-    </Landmarks>	
-	<Landmarks>
-      <Name>IRIS_L_CENTRE_RIGHT</Name>
-      <Position type="double">0.57 0.47</Position>
-    </Landmarks>
-	<Landmarks>
-      <Name>IRIS_L_CENTRE_RIGHT</Name>
-      <Position type="double">0.57 0.47</Position>
-    </Landmarks>	
-	<Landmarks>
-      <Name>IRIS_L_BOTTOM_RIGHT</Name>
-      <Position type="double">0.55 0.49</Position>
-    </Landmarks>	
-	<Landmarks>
-      <Name>IRIS_L_BOTTOM</Name>
-      <Position type="double">0.54 0.50</Position>
-    </Landmarks>
-	<Landmarks>
-      <Name>IRIS_L_BOTTOM_LEFT</Name>
-      <Position type="double">0.53 0.49</Position>
-    </Landmarks>
-	
     <Landmark>
       <Name>EYE_TOP_RIGHT</Name>
       <Position type="double">0.2 0.44</Position>
@@ -544,36 +418,6 @@
       </Lines>
     </LandmarkGroup>
     <LandmarkGroup>
-      <Name>EyeCaruncleRight</Name>
-      <Landmarks>
-        <Landmark>CARUNCLE_R_1</Landmark>
-        <Landmark>CARUNCLE_R_2</Landmark>
-        <Landmark>CARUNCLE_R_3</Landmark>
-        <Landmark>CARUNCLE_R_4</Landmark>
-        <Landmark>CARUNCLE_R_5</Landmark>
-        <Landmark>CARUNCLE_R_6</Landmark>
-        <Landmark>CARUNCLE_R_7</Landmark>
-      </Landmarks>
-      <Lines>
-        <Line>CARUNCLE_R_1,CARUNCLE_R_2,CARUNCLE_R_3,CARUNCLE_R_4,CARUNCLE_R_5,CARUNCLE_R_6,CARUNCLE_R_7</Line>
-      </Lines>
-    </LandmarkGroup>    
-	<LandmarkGroup>
-      <Name>EyeCaruncleLeft</Name>
-      <Landmarks>
-        <Landmark>CARUNCLE_L_1</Landmark>
-        <Landmark>CARUNCLE_L_2</Landmark>
-        <Landmark>CARUNCLE_L_3</Landmark>
-        <Landmark>CARUNCLE_L_4</Landmark>
-        <Landmark>CARUNCLE_L_5</Landmark>
-        <Landmark>CARUNCLE_L_6</Landmark>
-        <Landmark>CARUNCLE_L_7</Landmark>
-      </Landmarks>
-      <Lines>
-        <Line>CARUNCLE_L_1,CARUNCLE_L_2,CARUNCLE_L_3,CARUNCLE_L_4,CARUNCLE_L_5,CARUNCLE_L_6,CARUNCLE_L_7</Line>
-      </Lines>
-    </LandmarkGroup>
-	<LandmarkGroup>
       <Name>EyeRight</Name>
       <Landmarks>
         <Landmark>EYE_TOP_RIGHT</Landmark>
@@ -625,39 +469,6 @@
         <Line>PUPIL_OUTER_RIGHT,PUPIL_INNER_RIGHT</Line>
       </Lines>
     </LandmarkGroup>
-	<LandmarkGroup>
-      <Name>EyeIrisRight</Name>
-      <Landmarks>
-        <Landmark>IRIS_R_CENTRE_LEFT</Landmark>
-        <Landmark>IRIS_R_UPPER_LEFT</Landmark>
-        <Landmark>IRIS_R_TOP</Landmark>
-        <Landmark>IRIS_R_UPPER_RIGHT</Landmark>
-        <Landmark>IRIS_R_CENTRE_RIGHT</Landmark>
-        <Landmark>IRIS_R_BOTTOM_RIGHT</Landmark>
-        <Landmark>IRIS_R_BOTTOM</Landmark>
-        <Landmark>IRIS_R_BOTTOM_LEFT</Landmark>
-      </Landmarks>
-      <Lines>
-        <Line>IRIS_R_CENTRE_LEFT,IRIS_R_UPPER_LEFT,IRIS_R_TOP,IRIS_R_UPPER_RIGHT,IRIS_R_CENTRE_RIGHT,IRIS_R_BOTTOM_RIGHT,IRIS_R_BOTTOM,IRIS_R_BOTTOM_LEFT</Line>
-      </Lines>
-    </LandmarkGroup>
-	<LandmarkGroup>
-      <Name>EyeIrisLeft</Name>
-      <Landmarks>
-        <Landmark>IRIS_L_CENTRE_LEFT</Landmark>
-        <Landmark>IRIS_L_UPPER_LEFT</Landmark>
-        <Landmark>IRIS_L_TOP</Landmark>
-        <Landmark>IRIS_L_UPPER_RIGHT</Landmark>
-        <Landmark>IRIS_L_CENTRE_RIGHT</Landmark>
-        <Landmark>IRIS_L_BOTTOM_RIGHT</Landmark>
-        <Landmark>IRIS_L_BOTTOM</Landmark>
-        <Landmark>IRIS_L_BOTTOM_LEFT</Landmark>
-      </Landmarks>
-      <Lines>
-        <Line>IRIS_L_CENTRE_LEFT,IRIS_L_UPPER_LEFT,IRIS_L_TOP,IRIS_L_UPPER_RIGHT,IRIS_L_CENTRE_RIGHT,IRIS_L_BOTTOM_RIGHT,IRIS_L_BOTTOM,IRIS_L_BOTTOM_LEFT</Line>
-      </Lines>
-    </LandmarkGroup>
-	
     <LandmarkGroup>
       <Name>BrowRight</Name>
       <Landmarks>
@@ -755,36 +566,6 @@
         <Landmark>PUPIL_INNER_LEFT</Landmark>
         <Landmark>PUPIL_OUTER_RIGHT</Landmark>
         <Landmark>PUPIL_INNER_RIGHT</Landmark>
-		<Landmark>IRIS_R_CENTRE_LEFT</Landmark>
-        <Landmark>IRIS_R_UPPER_LEFT</Landmark>
-        <Landmark>IRIS_R_TOP</Landmark>
-        <Landmark>IRIS_R_UPPER_RIGHT</Landmark>
-        <Landmark>IRIS_R_CENTRE_RIGHT</Landmark>
-        <Landmark>IRIS_R_BOTTOM_RIGHT</Landmark>
-        <Landmark>IRIS_R_BOTTOM</Landmark>
-        <Landmark>IRIS_R_BOTTOM_LEFT</Landmark>
-		<Landmark>IRIS_L_CENTRE_LEFT</Landmark>
-        <Landmark>IRIS_L_UPPER_LEFT</Landmark>
-        <Landmark>IRIS_L_TOP</Landmark>
-        <Landmark>IRIS_L_UPPER_RIGHT</Landmark>
-        <Landmark>IRIS_L_CENTRE_RIGHT</Landmark>
-        <Landmark>IRIS_L_BOTTOM_RIGHT</Landmark>
-        <Landmark>IRIS_L_BOTTOM</Landmark>
-        <Landmark>IRIS_L_BOTTOM_LEFT</Landmark>
-        <Landmark>CARUNCLE_R_1</Landmark>
-        <Landmark>CARUNCLE_R_2</Landmark>
-        <Landmark>CARUNCLE_R_3</Landmark>
-        <Landmark>CARUNCLE_R_4</Landmark>
-        <Landmark>CARUNCLE_R_5</Landmark>
-        <Landmark>CARUNCLE_R_6</Landmark>
-        <Landmark>CARUNCLE_R_7</Landmark>
-        <Landmark>CARUNCLE_L_1</Landmark>
-        <Landmark>CARUNCLE_L_2</Landmark>
-        <Landmark>CARUNCLE_L_3</Landmark>
-        <Landmark>CARUNCLE_L_4</Landmark>
-        <Landmark>CARUNCLE_L_5</Landmark>
-        <Landmark>CARUNCLE_L_6</Landmark>
-        <Landmark>CARUNCLE_L_7</Landmark>
         <Landmark>BROW_INNER_RIGHT</Landmark>
         <Landmark>BROW_INNER_RIGHT-BROW_MIDDLE_RIGHT-0.5</Landmark>
         <Landmark>BROW_MIDDLE_RIGHT</Landmark>
@@ -809,10 +590,6 @@
         <LandmarkGroup>EyeLeft</LandmarkGroup>
         <LandmarkGroup>EyePupilLeft</LandmarkGroup>
         <LandmarkGroup>EyePupilRight</LandmarkGroup>
-		<LandmarkGroup>EyeIrisRight</LandmarkGroup>
-        <LandmarkGroup>EyeCaruncleLeft</LandmarkGroup>
-        <LandmarkGroup>EyeCaruncleRight</LandmarkGroup>
-        <LandmarkGroup>EyeIrisLeft</LandmarkGroup>     
         <LandmarkGroup>BrowRight</LandmarkGroup>
         <LandmarkGroup>BrowLeft</LandmarkGroup>
       </LandmarkGroups>
@@ -1006,36 +783,6 @@
         <Landmark>PUPIL_INNER_LEFT</Landmark>
         <Landmark>PUPIL_OUTER_RIGHT</Landmark>
         <Landmark>PUPIL_INNER_RIGHT</Landmark>
-		<Landmark>IRIS_R_CENTRE_LEFT</Landmark>
-        <Landmark>IRIS_R_UPPER_LEFT</Landmark>
-        <Landmark>IRIS_R_TOP</Landmark>
-        <Landmark>IRIS_R_UPPER_RIGHT</Landmark>
-        <Landmark>IRIS_R_CENTRE_RIGHT</Landmark>
-        <Landmark>IRIS_R_BOTTOM_RIGHT</Landmark>
-        <Landmark>IRIS_R_BOTTOM</Landmark>
-        <Landmark>IRIS_R_BOTTOM_LEFT</Landmark>
-		<Landmark>IRIS_L_CENTRE_LEFT</Landmark>
-        <Landmark>IRIS_L_UPPER_LEFT</Landmark>
-        <Landmark>IRIS_L_TOP</Landmark>
-        <Landmark>IRIS_L_UPPER_RIGHT</Landmark>
-        <Landmark>IRIS_L_CENTRE_RIGHT</Landmark>
-        <Landmark>IRIS_L_BOTTOM_RIGHT</Landmark>
-        <Landmark>IRIS_L_BOTTOM</Landmark>
-        <Landmark>IRIS_L_BOTTOM_LEFT</Landmark>
-        <Landmark>CARUNCLE_R_1</Landmark>
-        <Landmark>CARUNCLE_R_2</Landmark>
-        <Landmark>CARUNCLE_R_3</Landmark>
-        <Landmark>CARUNCLE_R_4</Landmark>
-        <Landmark>CARUNCLE_R_5</Landmark>
-        <Landmark>CARUNCLE_R_6</Landmark>
-        <Landmark>CARUNCLE_R_7</Landmark>
-        <Landmark>CARUNCLE_L_1</Landmark>
-        <Landmark>CARUNCLE_L_2</Landmark>
-        <Landmark>CARUNCLE_L_3</Landmark>
-        <Landmark>CARUNCLE_L_4</Landmark>
-        <Landmark>CARUNCLE_L_5</Landmark>
-        <Landmark>CARUNCLE_L_6</Landmark>
-        <Landmark>CARUNCLE_L_7</Landmark>
       </Landmarks>
       <LandmarkGroups>
         <LandmarkGroup>Nose</LandmarkGroup>
@@ -1043,10 +790,6 @@
         <LandmarkGroup>EyeLeft</LandmarkGroup>
         <LandmarkGroup>EyePupilLeft</LandmarkGroup>
         <LandmarkGroup>EyePupilRight</LandmarkGroup>
-		<LandmarkGroup>EyeIrisRight</LandmarkGroup>
-        <LandmarkGroup>EyeCaruncleLeft</LandmarkGroup>
-        <LandmarkGroup>EyeCaruncleRight</LandmarkGroup>
-        <LandmarkGroup>EyeIrisLeft</LandmarkGroup>     
       </LandmarkGroups>
       <TrackingOptions>
         <shapeTrackerTrainingData>
@@ -1363,7 +1106,6 @@
         <Landmark>PUPIL_INNER_LEFT</Landmark>
         <Landmark>PUPIL_OUTER_RIGHT</Landmark>
         <Landmark>PUPIL_INNER_RIGHT</Landmark>
-	
       </Landmarks>
       <Name>Eyes</Name>
       <Type>ParEncode</Type>
@@ -1408,8 +1150,7 @@
           617.752502441406 486.779205322266
           652.615051269531 486.309082031250
           429.163543701172 497.889831542969
-          464.000518798828 497.748352050781          
-		  449.095092773438 473.771942138672
+          464.000518798828 497.748352050781
           </baseshape>
           <id>Fixed Sampler: High Resolution Markup Scheme RFT 031 Retargeting Enhancements.12 Eyes</id>
         </samplerOptions>
